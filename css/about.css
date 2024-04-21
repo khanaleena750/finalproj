@@ -1,0 +1,69 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap');
+
+/* Global Styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+:root {
+    --primary-color: #6f42c1;
+    --white: white;
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    --gray: #808080;
+    --light-gray: #eee;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+#about .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about .text {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+    /* Add padding to the text for better spacing */
+}
+
+#about .image-container {
+    flex: 1;
+}
+
+#about .image-container img {
+    width: 20%;
+    /* Make the images fill the entire container */
+    height: auto;
+    /* Maintain the aspect ratio */
+    border-radius: 8px;
+    /* Optional: Add border-radius for rounded corners */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+    #about .content,
+    #about .image-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
