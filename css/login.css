@@ -1,0 +1,539 @@
+/* login.css */
+
+#login-container .align {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+#login-container .grid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+  max-width: 20rem;
+  width: 90%;
+}
+
+
+#login-container .hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+#login-container .icons {
+  display: none;
+}
+
+#login-container .icon {
+  display: inline-block;
+  fill: #606468;
+  font-size: 16px;
+  font-size: 1rem;
+  height: 1em;
+  vertical-align: middle;
+  width: 1em;
+}
+
+
+
+#login-container * {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+#login-container html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  height: 100%;
+}
+
+#login-container body {
+  background-color: #2c3338;
+  color: #606468;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+}
+
+
+#login-container a {
+  color: #eee;
+  outline: 0;
+  text-decoration: none;
+}
+
+#login-container a:focus,
+#login-container a:hover {
+  text-decoration: underline;
+}
+
+
+#login-container input {
+  background-image: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+#login-container input[type='submit'] {
+  cursor: pointer;
+}
+
+#login-container .form {
+  margin: 0 auto; /* Center the form horizontally */
+  max-width: 320px; /* Adjust the max-width as needed */
+}
+
+#login-container .form__field {
+  margin: 14px 0; /* Adjust the top and bottom margin as needed */
+}
+
+#login-container .form input[type='password'],
+#login-container .form input[type='text'],
+#login-container .form input[type='submit'] {
+  font-size: 15px; /* Adjust the font size as needed */
+  padding: 20px; /* Adjust the padding as needed */ 
+}
+
+
+#login-container .form__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 14px;
+  margin: 0.875rem;
+}
+
+#login-container .form__input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#login-container .login {
+  color: #eee;
+}
+
+#login-container .login label,
+#login-container .login input[type='text'],
+#login-container .login input[type='password'],
+#login-container .login input[type='submit'] {
+  border-radius: 0.25rem;
+  padding: 16px;
+  padding: 1rem;
+}
+
+#login-container .login label {
+  background-color: #363b41;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 20px;
+  padding-left: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+}
+
+#login-container .login input[type='password'],
+#login-container .login input[type='text'] {
+  background-color: #3b4148;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#login-container .login input[type='password']:focus,
+#login-container .login input[type='password']:hover,
+#login-container .login input[type='text']:focus,
+#login-container .login input[type='text']:hover {
+  background-color: #434a52;
+}
+
+#login-container .login input[type='submit'] {
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#login-container .login input[type='submit']:focus,
+#login-container .login input[type='submit']:hover {
+  background-color: #d44179;
+}
+
+
+
+#login-container p {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  margin-top: 24px;
+  margin-top: 1.5rem;
+}
+
+.text--center {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.text--center a {
+  display: inline-block;
+
+}
+
+.form__field {
+  margin: 0;
+}
+
+.form__field input[type='submit'] {
+  margin-top: 100px; /* Adjust the top margin as needed */
+}
+
+.text--center {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 13px; /* Adjust the font size as needed */
+}
+
+.text--center a {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the left margin as needed */
+  margin-top: 10px; /* Add top margin to separate from the button */
+  font-size: 13px; /* Adjust the font size as needed */
+  /* color: blue !important; Set the text color to blue */
+}
+
+/* end of login.css */
+
+/* start of signup css */
+
+/* Use the same CSS selectors and rules for signup form as for login form */
+/* Add CSS rules for signup form */
+#signup-form .form__field {
+  margin: 14px 0 7px 0; /* Adjust the top and bottom margin as needed */
+}
+
+#signup-form .form input[type='password'],
+#signup-form .form input[type='text'],
+#signup-form .form input[type='submit'] {
+  font-size: 45px; /* Adjust the font size as needed */
+  padding: 10px; /* Adjust the padding as needed */
+  color: white; /* Change text color to white */
+}
+
+#signup-form .form__field {
+  margin: 14px 0; /* Adjust the margin as needed */
+  display: flex; /* Use flexbox to center the form fields */
+  justify-content: center; /* Horizontally center the form fields */
+}
+
+#signup-form .form__input {
+  width: 20%; /* Reduce the width to center the fields */
+}
+
+#signup-form .signup {
+  color: #eee;
+}
+
+#signup-form label,
+#signup-form input[type='text'],
+#signup-form input[type='password'],
+#signup-form input[type='submit'] {
+  border-radius: 0.25rem;
+  padding: 16px;
+  padding: 1rem;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: white; /* Change text color to white */
+}
+
+#signup-form label {
+  display: none; /* Hide labels */
+}
+
+#signup-form input[type='password'],
+#signup-form input[type='text'] {
+  background-color: #363b41;
+  border-radius: 0.25rem; /* Adjust border-radius (this rounds the corners of each field) */
+}
+
+#signup-form input[type='password']:focus,
+#signup-form input[type='password']:hover,
+#signup-form input[type='text']:focus,
+#signup-form input[type='text']:hover {
+  background-color: #363b41;
+}
+
+#signup-form input[type='submit'] {
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 7px; /* Adjust the top margin of the signup button */
+}
+
+#signup-form input[type='submit']:focus,
+#signup-form input[type='submit']:hover {
+  background-color: #d44179;
+}
+
+/* Remove blue text */
+#signup-form .text--center a {
+  display: none; /* Hide anchor tags */
+} 
+
+
+
+/* #signup-form .align {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+#signup-form .grid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+  max-width: 20rem;
+  width: 90%;
+}
+
+
+#signup-form .hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+#signup-form .icons {
+  display: none;
+}
+
+#signup-form .icon {
+  display: inline-block;
+  fill: #606468;
+  font-size: 16px;
+  font-size: 1rem;
+  height: 1em;
+  vertical-align: middle;
+  width: 1em;
+}
+
+
+
+#signup-form * {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+#signup-form html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  height: 100%;
+}
+
+#signup-form body {
+  background-color: #2c3338;
+  color: #606468;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+}
+
+
+#signup-form a {
+  color: #eee;
+  outline: 0;
+  text-decoration: none;
+}
+
+#signup-form a:focus,
+#signup-form a:hover {
+  text-decoration: underline;
+}
+
+
+#signup-form input {
+  background-image: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+#signup-form input[type='submit'] {
+  cursor: pointer;
+}
+
+#signup-form .form {
+  margin: 0 auto; /* Center the form horizontally 
+  max-width: 320px; /* Adjust the max-width as needed 
+}
+
+#signup-form .form__field {
+  margin: 14px 0; /* Adjust the top and bottom margin as needed 
+}
+
+#signup-form .form input[type='password'],
+#signup-form .form input[type='text'],
+#signup-form .form input[type='submit'] {
+  font-size: 15px; /* Adjust the font size as needed 
+  padding: 20px; /* Adjust the padding as needed 
+}
+
+
+#signup-form .form__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 14px;
+  margin: 0.875rem;
+}
+
+#signup-form .form__input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#signup-form .login {
+  color: #eee;
+}
+
+#signup-form .login label,
+#signup-form .login input[type='text'],
+#signup-form .login input[type='password'],
+#signup-form .login input[type='submit'] {
+  border-radius: 0.25rem;
+  padding: 16px;
+  padding: 1rem;
+}
+
+#signup-form .login label {
+  background-color: #363b41;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 20px;
+  padding-left: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+}
+
+#signup-form .login input[type='password'],
+#signup-form .login input[type='text'] {
+  background-color: #3b4148;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#signup-form .login input[type='password']:focus,
+#signup-form .login input[type='password']:hover,
+#signup-form .login input[type='text']:focus,
+#signup-form .login input[type='text']:hover {
+  background-color: #434a52;
+}
+
+#signup-form .login input[type='submit'] {
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#signup-form .login input[type='submit']:focus,
+#signup-form .login input[type='submit']:hover {
+  background-color: #d44179;
+}
+
+
+
+#signup-form p {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  margin-top: 24px;
+  margin-top: 1.5rem;
+}
+
+.text--center {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.text--center a {
+  display: inline-block;
+
+}
+
+.form__field {
+  margin: 0;
+}
+
+.form__field input[type='submit'] {
+  margin-top: 100px; /* Adjust the top margin as needed 
+}
+
+.text--center {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 13px; /* Adjust the font size as needed 
+}
+
+.text--center a {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the left margin as needed 
+  margin-top: 10px; /* Add top margin to separate from the button 
+  font-size: 13px; /* Adjust the font size as needed *
+  /* color: blue !important; Set the text color to blue *
+} */
